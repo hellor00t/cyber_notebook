@@ -1,6 +1,7 @@
 # Web Python Snippets
 
-Write the body for each page of a specified amount of re-directs to a file
+
+**Write the body for each page of a specified amount of re-directs to a file**
 
 ```
 text
