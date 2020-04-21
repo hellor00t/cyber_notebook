@@ -3,7 +3,8 @@
 Setup
 
 * Add sysmon macro
-`index=<index> sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational" `
+
+  `index=<index> sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operational"`
 
 ## General
 
@@ -12,20 +13,22 @@ Setup
 `| eventcount summarize=false index=* index=_* | dedup index | fields index`
 
 * Identify index sourcetypes
-`| metadata type=sourcetypes index=<index name>`
+
+  `| metadata type=sourcetypes index=<index name>`
 
 ## Windows
 
 * List of interesting processes from sysmon
 
-``sysmon` Image=*\\powershell.exe OR Image=*\\msbuild.exe OR Image=*\\psexec.exe OR Image=*\\at.exe OR Image=*\\schtasks.exe OR Image=*\\net.exe OR Image=*\\vssadmin.exe OR Image=*\\utilman.exe OR Image=*\\wmic.exe OR Image=*\\mshta.exe OR Image=*\\wscript.exe OR Image=*\\cscript.exe OR Image=*\\cmd.exe OR Image=*\\whoami.exe OR Image=*\\mmc.exe OR Image=*\\systeminfo.exe OR Image=*\\csvde.exe OR Image=*\\certutil.exe | stats values(CommandLine) by Image`
+```sysmon`` Image=_\powershell.exe OR Image=_\msbuild.exe OR Image=_\psexec.exe OR Image=_\at.exe OR Image=_\schtasks.exe OR Image=_\net.exe OR Image=_\vssadmin.exe OR Image=_\utilman.exe OR Image=_\wmic.exe OR Image=_\mshta.exe OR Image=_\wscript.exe OR Image=_\cscript.exe OR Image=_\cmd.exe OR Image=_\whoami.exe OR Image=_\mmc.exe OR Image=_\systeminfo.exe OR Image=_\csvde.exe OR Image=_\certutil.exe \| stats values\(CommandLine\) by Image\`
 
 ### Sysmon
 
 * Count Sysmon EventIDs and Descriptions
 
-``sysmon` | stats count by EventID, EventDescription`
+```sysmon`` \| stats count by EventID, EventDescription\`
 
 ## Linux
 
 ## Network
+

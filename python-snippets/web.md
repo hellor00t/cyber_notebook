@@ -1,9 +1,8 @@
 # Web Python Snippets
 
-
 **Write the body for each page of a specified amount of re-directs to a file**
 
-```
+```text
 text
 import requests
 from urllib.parse import urlparse
@@ -16,6 +15,5 @@ r = session.get('', allow_redirects=False)
 
 for redirect in session.resolve_redirects(r, r.request):
     print(redirect.text)
-
 ```
 
