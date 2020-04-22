@@ -1,26 +1,38 @@
 # Table of contents
 
 * [cyber\_notebook](README.md)
-* [offense](offsec/README.md)
-  * [Recon](offsec/recon.md)
-  * [Binary Exploitation](offsec/binary_exploitation.md)
-  * [Exfil](offsec/exfil.md)
-  * [Web Application Security](offsec/web_app.md)
-* [Simple MYSQL Cheatsheet](mysql.md)
-* [python snippets](python-snippets/README.md)
-  * [Web Python Snippets](python-snippets/web.md)
-  * [python\_ref](python-snippets/references.md)
-* [training\_notes](training_notes/README.md)
-  * [forensics](training_notes/liveoverflow_binary_exp.md)
-* [linux](linux/README.md)
-  * [firewall](linux/firewall.md)
-* [defense](defense/README.md)
-  * [Splunk Cheatsheets](defense/splunk_cheatsheet.md)
-  * [Malware Reserach](defense/malware_research.md)
-  * [forensics](defense/forensics.md)
-  * [network\_monitoring](defense/network_monitoring.md)
-* [book\_notes](book_notes/README.md)
-  * [practical\_malware\_analysis](book_notes/practical_malware_analysis.md)
-* [git](git.md)
 * [CTF Tools](ctf_tools.md)
+
+## Defense <a id="defense-1"></a>
+
+* [network\_monitoring](defense-1/network_monitoring.md)
+* [forensics](defense-1/forensics.md)
+* [Malware Reserach](defense-1/malware_research.md)
+* [Splunk Cheatsheets](defense-1/splunk_cheatsheet.md)
+
+## Offense
+
+* [Web Application Security](offense/web_app.md)
+* [Exfil](offense/exfil.md)
+* [Binary Exploitation](offense/binary_exploitation.md)
+* [Recon](offense/recon.md)
+
+## Programming <a id="programming-1"></a>
+
+* [Web Python Snippets](programming-1/web.md)
+* [python\_references](programming-1/references.md)
+* [flask](programming-1/flask.md)
+* [Simple MYSQL Cheatsheet](programming-1/mysql.md)
+
+## Notes
+
+* [forensics](notes/liveoverflow_binary_exp.md)
+* [practical\_malware\_analysis](notes/practical_malware_analysis.md)
+* [training\_notes](notes/training_notes.md)
+* [book\_notes](notes/book_notes.md)
+
+## SysAdmin
+
+* [linux](sysadmin/linux/README.md)
+  * [firewall](sysadmin/linux/firewall.md)
 
