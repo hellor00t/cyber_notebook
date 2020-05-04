@@ -1,28 +1,29 @@
 # Table of contents
 
 * [cyber\_notebook](README.md)
-* [CTF Tools](ctf_tools.md)
+* [ctf\_tools](ctf_tools.md)
 
 ## Defense <a id="defense-1"></a>
 
 * [network\_monitoring](defense-1/network_monitoring.md)
 * [forensics](defense-1/forensics.md)
-* [Malware Reserach](defense-1/malware_research.md)
-* [Splunk Cheatsheets](defense-1/splunk_cheatsheet.md)
+* [malware\_research](defense-1/malware_research.md)
+* [splunk\_cheatsheets](defense-1/splunk_cheatsheet.md)
 
 ## Offense
 
-* [Web Application Security](offense/web_app.md)
-* [Exfil](offense/exfil.md)
-* [Binary Exploitation](offense/binary_exploitation.md)
-* [Recon](offense/recon.md)
+* [web\_application\_security](offense/web_app.md)
+* [exfiltration](offense/exfil.md)
+* [binary\_exploitation](offense/binary_exploitation.md)
+* [recon](offense/recon.md)
 
-## Programming <a id="programming-1"></a>
+## Programming
 
-* [Web Python Snippets](programming-1/web.md)
-* [python\_references](programming-1/references.md)
-* [flask](programming-1/flask.md)
-* [Simple MYSQL Cheatsheet](programming-1/mysql.md)
+* [concepts](programming/concepts.md)
+* [python](programming/references/README.md)
+  * [python\_snippets](programming/references/web.md)
+  * [flask](programming/references/flask.md)
+* [sql](programming/mysql.md)
 
 ## Notes
 
