@@ -13,6 +13,10 @@
 
 * GoBuster
   * `gobuster dir -u http://www.example.local -w /usr/share/wordlist`
+* DirSearch \(Route through Burp/ZAP etc\)
+  * `python3 /path/to/dirsearch/dirsearch.py -w <wordlist> --http-proxy=localhost:8080`
+* BurpPro
+  * TurboIntruder
 
- 
+
 
