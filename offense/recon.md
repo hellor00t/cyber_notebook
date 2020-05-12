@@ -6,8 +6,16 @@
 
 ## DNS
 
+#### Tools
+
+* [https://github.com/darkoperator/dnsrecon](https://github.com/darkoperator/dnsrecon)
 * [Aquatone](https://github.com/michenriksen/aquatone)
+
+#### Sites
+
 * [https://www.robtex.com/dns-lookup/](https://www.robtex.com/dns-lookup/)
+* [https://dnssec-analyzer.verisignlabs.com](https://dnssec-analyzer.verisignlabs.com)
+* [https://dnsdumpster.com/](https://dnsdumpster.com/)
 
 ## Web Directory Enumeration
 
