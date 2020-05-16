@@ -12,3 +12,11 @@
 
 * [https://github.com/frohoff/ysoserial](https://github.com/frohoff/ysoserial)
 
+### Burp Plugins
+
+
+
+### Resources
+
+* [https://skeletonscribe.net/](https://skeletonscribe.net/)
+
