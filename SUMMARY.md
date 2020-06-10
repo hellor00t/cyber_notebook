@@ -29,6 +29,7 @@
 
 * [forensics](notes/liveoverflow_binary_exp.md)
 * [practical\_malware\_analysis](notes/practical_malware_analysis.md)
+* [Macbook Setup](notes/macbook-setup.md)
 * [training\_notes](notes/training_notes.md)
 * [book\_notes](notes/book_notes.md)
 
