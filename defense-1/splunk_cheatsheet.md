@@ -1,4 +1,4 @@
-# splunk\_cheatsheets
+# Splunk Cheatsheet
 
 Setup
 

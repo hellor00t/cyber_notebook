@@ -1,21 +1,22 @@
 # Table of contents
 
-* [cyber\_notebook](README.md)
-* [ctf\_tools](ctf_tools.md)
+* [Introduction](README.md)
+* [CTF Tooling](ctf_tools.md)
 
 ## Defense <a id="defense-1"></a>
 
-* [network\_monitoring](defense-1/network_monitoring.md)
-* [forensics](defense-1/forensics.md)
-* [malware\_research](defense-1/malware_research.md)
-* [splunk\_cheatsheets](defense-1/splunk_cheatsheet.md)
+* [Network Monitoring](defense-1/network_monitoring.md)
+* [Forensics](defense-1/forensics.md)
+* [Malware Research](defense-1/malware_research.md)
+* [Splunk Cheatsheet](defense-1/splunk_cheatsheet.md)
 
 ## Offense
 
-* [web\_application\_security](offense/web_app.md)
-* [exfiltration](offense/exfil.md)
-* [binary\_exploitation](offense/binary_exploitation.md)
-* [recon](offense/recon.md)
+* [Mobile Security](offense/mobile-security.md)
+* [Recon](offense/recon.md)
+* [Web Apps](offense/web_app.md)
+* [Exfiltration](offense/exfil.md)
+* [Binary Exploitation](offense/binary_exploitation.md)
 
 ## Development
 

@@ -1,4 +1,4 @@
-# ctf\_tools
+# CTF Tooling
 
 ## Stenography
 

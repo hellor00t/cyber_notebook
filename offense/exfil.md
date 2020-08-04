@@ -1,4 +1,4 @@
-# exfiltration
+# Exfiltration
 
 ## DNS
 
