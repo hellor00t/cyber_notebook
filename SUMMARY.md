@@ -12,6 +12,7 @@
 
 ## Offense
 
+* [General Workflow](offense/general-workflow.md)
 * [Mobile Security](offense/mobile-security.md)
 * [Recon](offense/recon.md)
 * [Web Apps](offense/web_app.md)
