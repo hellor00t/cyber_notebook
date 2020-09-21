@@ -1,5 +1,13 @@
 # python
 
+## Startup Workflow
+
+```text
+
+```
+
+## 
+
 ## String Formatting
 
 * [https://pyformat.info/](https://pyformat.info/)
